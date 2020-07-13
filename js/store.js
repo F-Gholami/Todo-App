@@ -88,6 +88,7 @@
 //      		newId += charset.charAt(Math.floor(Math.random() * charset.length));
 // 		}
 		
+		// Generate a unique Id
 		var newId = new Date().getTime()
 
 		// If an ID was actually given, find the item and update each property
