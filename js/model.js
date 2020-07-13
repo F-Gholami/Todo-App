@@ -102,11 +102,15 @@
 
 		this.storage.findAll(function (data) {
 			data.forEach(function (todo) {
-				if (todo.completed) {
-					todos.completed++;
-				} else {
-					todos.active++;
-				}
+				
+				// Changing the if statement into a ternary...
+				(todo.completed) ? todos.completed++ : todos.active++
+				
+// 				if (todo.completed) {
+// 					todos.completed++;
+// 				} else {
+// 					todos.active++;
+// 				}
 
 				todos.total++;
 			});
