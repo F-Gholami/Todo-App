@@ -5,4 +5,5 @@ The ToDo web application is a simple browser-based ToDo list, built with vanilla
 The application allows a user to add a new todo, edit or delete an existing todo, or select all todos at once and then delete them if desired. The user can also view completed or incompleted ToDos.
 
 Live Demo [Todo-App](https://f-gholami.github.io/Todo-App/)
+
 [Wiki Home Page](https://github.com/F-Gholami/Todo-App/wiki)
